@@ -4,6 +4,11 @@ Decision baseline: **2026-10-23**. Status: **design for review**. Deployment tar
 first, then one installation inside each company's infrastructure**. A shared SaaS is outside
 the first release. The product name is Æion SpaceShip; its cockpit is Mission Control.
 
+Product packaging is codified in [ecosystem.json](ecosystem.json), the
+[independent-module contract](knowledge/operations/module-integration.md), and the
+[website content kit](website/README.md). All five repositories are individually adoptable;
+the integrated runtime remains planned.
+
 ## Product outcome
 
 A nonexpert should be able to select a repository, state an outcome, choose an approved operating

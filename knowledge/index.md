@@ -5,6 +5,8 @@ observed source behavior. Runtime acceptance cases are planned, not executed.
 
 | Document | Question answered |
 | --- | --- |
+| [Ecosystem catalog](components/ecosystem-catalog.md) | Which metadata drives the module guide and future website? |
+| [Independent integration](operations/module-integration.md) | How can each repository be adopted alone or in a selected combination? |
 | [Component contract](components/space-ship.md) | What does SpaceShip own and guarantee? |
 | [Architecture and state](operations/architecture-and-state.md) | Where are authority, durability and effects enforced? |
 | [Enterprise policy](operations/enterprise-policy.md) | How do company constraints become deterministic rules? |
