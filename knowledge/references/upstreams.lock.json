@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-23",
+  "purpose": "Research provenance, not an installation lock or security attestation",
+  "upstreams": [
+    {
+      "repository": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+      "committed_at": "2026-09-14T19:28:54Z",
+      "default_branch": "main",
+      "repository_license_identifier": "MIT",
+      "license_scope": "Check component licenses; repository metadata is not a blanket grant.",
+      "tree_truncated": false,
+      "qualification_status": "source_review_only",
+      "retrieved_source_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1078,
+          "sha256": "e598e694aa506650c7192d5ea3be0e50aca0d356ea00551c53429f0b01eb6391",
+          "git_blob_sha1": "6dbc9ecb3a5b9080e95b962869e8c7ab16cfdc20"
+        },
+        {
+          "path": "README.md",
+          "bytes": 6950,
+          "sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+          "git_blob_sha1": "c80305c88cd5087db37f76a0d230c1fc092c864c"
+        },
+        {
+          "path": "skills/security-audit/AI-AND-LLM.md",
+          "bytes": 10617,
+          "sha256": "7335a95c43554eadefcf03ece639291bb0e038c398a179299e3887ffe06bd2ef",
+          "git_blob_sha1": "02ba9039eca4cec811fefc77bce0d7349b379aae"
+        },
+        {
+          "path": "skills/security-audit/ATTACK-CLASSES.md",
+          "bytes": 15695,
+          "sha256": "3ee4f00c6e8c9dcf6dd02dd5ac2a4ceb322e2085f3e9fbe79cf0c6330bc7ef83",
+          "git_blob_sha1": "18a2beb4dbb554fb52b0a0293b8bd9108207f8fa"
+        },
+        {
+          "path": "skills/security-audit/CLIENT-SIDE.md",
+          "bytes": 8594,
+          "sha256": "613f6b98f86083e045525c5b60154ffdab122bac35f1e05eb17488e6e453370c",
+          "git_blob_sha1": "8ba673e9e7e3d02f5518aa0219bcbeec7957531b"
+        },
+        {
+          "path": "skills/security-audit/CLOUD-AND-DEPLOYMENT.md",
+          "bytes": 8291,
+          "sha256": "3c80f3088be22345e07b057c056d6ed99fe2b0304f794398964f7ccd5a496ca3",
+          "git_blob_sha1": "5569f76c7740744aa3f60aaa89eaefe275f2e6c9"
+        },
+        {
+          "path": "skills/security-audit/DATA-ISOLATION-AND-LIFECYCLE.md",
+          "bytes": 7798,
+          "sha256": "307dcb3e24d292715c4a041190e7bb135646a37eb6187619ae01d000a634a4ad",
+          "git_blob_sha1": "0cba1fa463b62c9b0caba710a201e29c1eecd0ec"
+        },
+        {
+          "path": "skills/security-audit/DESKTOP-MOBILE-AND-LOCAL-IPC.md",
+          "bytes": 8739,
+          "sha256": "58eae8ee0ca6a46611c501ec5a3ab47fdff88dd7db0d8d74789bbf8bb19d8cb2",
+          "git_blob_sha1": "d6230098651bff6348d3868c11f566bfb1306e7f"
+        },
+        {
+          "path": "skills/security-audit/HUNTING.md",
+          "bytes": 22446,
+          "sha256": "71c121decea1322c47c718f6e110f1a892980bb4266bd7ac55ef043a213ade09",
+          "git_blob_sha1": "377d4dcfbe88a049379448cd7892717185401597"
+        },
+        {
+          "path": "skills/security-audit/MEMORY-SAFETY-AND-BINARY.md",
+          "bytes": 10513,
+          "sha256": "7c8b0dccfb35315cca2455509674d49632b2fe37e1f3aac16c1a496a7e9924a7",
+          "git_blob_sha1": "86ff4920752661fc4a31a35ca4f962ace5dd5f48"
+        },
+        {
+          "path": "skills/security-audit/PROTOCOLS-RPC-AND-MESSAGING.md",
+          "bytes": 7483,
+          "sha256": "8b73816fa5b3697c9c40977f0c836b40f01d6e81929ff2720fe83ce089e9a619",
+          "git_blob_sha1": "b04ab88f852224838fdc9683d9fcccd858b0778a"
+        },
+        {
+          "path": "skills/security-audit/RECONNAISSANCE.md",
+          "bytes": 15902,
+          "sha256": "02ca887aca84de8ae137f1891bd2f0a54f28d3fa6da92a27f54734382b3381a2",
+          "git_blob_sha1": "1a170a93ab76b93dc5ac268a5b690beb423a8aa9"
+        },
+        {
+          "path": "skills/security-audit/RESOURCE-EXHAUSTION-AND-AVAILABILITY.md",
+          "bytes": 7476,
+          "sha256": "4326fab5c92a0b4c420a70196254040105cd794026562130b59bf1a6db3e4baa",
+          "git_blob_sha1": "6cbbd1e2cfa482068c8279c2f7da9db43d3f54b8"
+        },
+        {
+          "path": "skills/security-audit/SKILL.md",
+          "bytes": 22026,
+          "sha256": "5e3e96a1e438d8f35fef0a1e38f02d4f00e2bdf910401b7dfe00e6779c6dac85",
+          "git_blob_sha1": "92178dad304d3f63e37582a297026a7874e12c62"
+        },
+        {
+          "path": "skills/security-audit/SUPPLY-CHAIN-AND-RELEASE.md",
+          "bytes": 7258,
+          "sha256": "f372e919940e335468ba1ae09f99026c3986a345f7fe26f8068f132e199f52a5",
+          "git_blob_sha1": "bf96aed0803bc07471483ab129dea86759c3e305"
+        },
+        {
+          "path": "skills/security-audit/VALIDATION-AND-REPORTING.md",
+          "bytes": 17843,
+          "sha256": "b892470cb89bb31f33403e050d4bdfbe2cdaef940ade1496fa65e32b2e129449",
+          "git_blob_sha1": "5e200d7387e665e53e0e4190fa4a5814c334c507"
+        },
+        {
+          "path": "skills/security-audit/WEB-PROTOCOL-AND-AUTH.md",
+          "bytes": 12300,
+          "sha256": "4f3066dffa23c5635859187be9b96c32f2aff29a688186b91ff0c63e47d62b5c",
+          "git_blob_sha1": "1a099fa575cf52a61e9a627f91b61015120fa517"
+        },
+        {
+          "path": "skills/security-audit/report-schema.json",
+          "bytes": 14494,
+          "sha256": "6575c9de4a62255699ea052ebf9a49ebfb373a32891bcd89af6f55cc84b35519",
+          "git_blob_sha1": "55815a3687a45fff63d8ebf20068611bd6ad6d9a"
+        },
+        {
+          "path": "skills/security-audit/validate-coverage-ledger.cjs",
+          "bytes": 33522,
+          "sha256": "2eb280bd2e33c002916f86db9b29f9edfedb6454e5db973c766290465b868ac8",
+          "git_blob_sha1": "0ef58657bef18b26a92321df6c8e3d31bc8e6659"
+        },
+        {
+          "path": "skills/security-audit/validate-coverage-ledger.test.cjs",
+          "bytes": 28483,
+          "sha256": "cfb9df26b03469a4279a70e7664a2a5434dd6f8c2c204e91f9b0aeb9dd71e648",
+          "git_blob_sha1": "b1444f57e1b021a61175733b8c356171861c8701"
+        },
+        {
+          "path": "skills/security-audit/validate-findings.cjs",
+          "bytes": 28806,
+          "sha256": "e85f232e36bfac0f866f244da50376692d6b45c690beadcb00608b0e6c8b5283",
+          "git_blob_sha1": "2843feceddb7e30bf10d6e4f7bbe6640e4c57799"
+        },
+        {
+          "path": "skills/security-audit/validate-findings.test.cjs",
+          "bytes": 26384,
+          "sha256": "b92001117a92c4161d43777a0ba2fa182a8a4d97f2304cc8c0cee5331497b73b",
+          "git_blob_sha1": "8d245b226bbe2fdf28b46b3203b99c2824039d2d"
+        }
+      ]
+    },
+    {
+      "repository": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "commit": "80591c20b43473baf1647fd9ed8c5992d9803ea1",
+      "committed_at": "2026-10-23T08:33:05Z",
+      "default_branch": "main",
+      "repository_license_identifier": "MIT",
+      "license_scope": "Check component licenses; repository metadata is not a blanket grant.",
+      "tree_truncated": false,
+      "qualification_status": "source_review_only",
+      "retrieved_source_files": [
+        {
+          "path": "AGENTS.md",
+          "bytes": 92,
+          "sha256": "16ee98024fdc8a4748834640d58c3bf0d3af9c568c0299f918a54f213eab6116",
+          "git_blob_sha1": "1f4a910ed80950f3a32c5d0bae0df93cd4d27112"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1075,
+          "sha256": "01fde0bedf83bdc185065d7af524a61690efe576a67f922eaff3a1280c17b63a",
+          "git_blob_sha1": "8dce7b4d4c2632990bdf8b4101694ea19ba6ad46"
+        },
+        {
+          "path": "README.md",
+          "bytes": 24997,
+          "sha256": "a3e2745dedec4f9e0d4452857ef054699e60414740f5d8f12d41bd42711d476a",
+          "git_blob_sha1": "250a2e8eca4fccae242a9b7c90ba5d17fe8f8919"
+        },
+        {
+          "path": "package.json",
+          "bytes": 1765,
+          "sha256": "59683f4a06229531a93f34ca23674ac8d8af78b78e262ab4307abf39839f9847",
+          "git_blob_sha1": "f3fb16742ace77e6796a6d531aa71f0711617376"
+        },
+        {
+          "path": "pyproject.toml",
+          "bytes": 764,
+          "sha256": "053f9add3a6a726254745493425967470b8da784b06bc766b6841b9449c5029e",
+          "git_blob_sha1": "ff17f8ca92bd59ff60e9faf48be711fef36ef41e"
+        }
+      ]
+    },
+    {
+      "repository": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "commit": "412914cfa78d5abefcc34d3eb8d4bb86e461caac",
+      "committed_at": "2026-10-23T06:38:09Z",
+      "default_branch": "master",
+      "repository_license_identifier": "MIT",
+      "license_scope": "Check component licenses; repository metadata is not a blanket grant.",
+      "tree_truncated": false,
+      "qualification_status": "source_review_only",
+      "retrieved_source_files": [
+        {
+          "path": "AGENTS.md",
+          "bytes": 12787,
+          "sha256": "2ba86bce44d20fb2f849b9531e0b6e3082ec5038536d37f817063319b8cd3879",
+          "git_blob_sha1": "2fe511d0b0c4c317f778f3a65c4e667db92a09c4"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1069,
+          "sha256": "7f8a27f0979bded50e240caa8c8c29f3088ddf87032cb83e5a9732bff91d18b4",
+          "git_blob_sha1": "a63594a5150d0ae00c3ddc36b61fa8f708c3ca8c"
+        },
+        {
+          "path": "README.md",
+          "bytes": 35767,
+          "sha256": "b7c58fc6fe8a5900502c6166950f53fc3e1ff979a0d279cff23d48de9b569d7c",
+          "git_blob_sha1": "aded019506087c4748e63e9a58580bee5c86cb22"
+        },
+        {
+          "path": "doc/connections/SECURITY-THREAT-MODEL.md",
+          "bytes": 15384,
+          "sha256": "a365313d142fae01cf18e95cbb81f56dd701b70f6848b5f0e5afda8d73895767",
+          "git_blob_sha1": "5b1a062e3473480cdf5115d0315511c860b505d3"
+        },
+        {
+          "path": "docs/api/approvals.md",
+          "bytes": 1829,
+          "sha256": "468b4450aad9e81c6ee3dd71e49a66380109b2bfb6df4291cc5f6e34a7d15976",
+          "git_blob_sha1": "e4139ece910ca7b63ba96194db400644fffe700b"
+        },
+        {
+          "path": "docs/guides/board-operator/costs-and-budgets.md",
+          "bytes": 1918,
+          "sha256": "aad32a8278a1c8aafca56ae742b31aba98c15d3b361372e92b83b46340dd9f32",
+          "git_blob_sha1": "6e275b17cadcae22f13e360571515b71fcae48d5"
+        },
+        {
+          "path": "docs/start/architecture.md",
+          "bytes": 4602,
+          "sha256": "fa8eec74ddcdef43d3b3e93996b66e62a6a4677f55dee2ad26c203c9e87b3d62",
+          "git_blob_sha1": "66df63ef3377bff08c84710d16714035e865709e"
+        },
+        {
+          "path": "package.json",
+          "bytes": 11438,
+          "sha256": "184009a0a8e00b45475333503aca1e2d4eee41dbc99a898d1b490277b20c226e",
+          "git_blob_sha1": "95a615e405dd5cb78c9f1fb507ba21609c1f019f"
+        },
+        {
+          "path": "server/src/services/accounting-transaction.ts",
+          "bytes": 2304,
+          "sha256": "2b87c6d8a9ea5ce251f3a7ee9220c7794ccb10137047cd093ae145d23292f655",
+          "git_blob_sha1": "1012ab98380523447c8c180d5d9f1c22038b24fb"
+        },
+        {
+          "path": "server/src/services/budget-reservations.ts",
+          "bytes": 9794,
+          "sha256": "fefd6ef7c2fac08747be101c5d7b4e3b0d10e316b74c0a7d4064163a1a753be2",
+          "git_blob_sha1": "3d9621f3581b668c668074cf374d26008042944b"
+        },
+        {
+          "path": "server/src/services/budgets.ts",
+          "bytes": 51402,
+          "sha256": "232e4758af4ca2ff54a7bdeabbaf8b4ab3e7242f5eb6abf3eb25203348f4813c",
+          "git_blob_sha1": "bf02e510ca07b688278ce48a23a0ec5f478da83a"
+        },
+        {
+          "path": "server/src/services/task-admission.ts",
+          "bytes": 1940,
+          "sha256": "f9a73066792b31e4d6ddbee926f0958beb6154df4f48c77ddedf98353a7e6ca5",
+          "git_blob_sha1": "a72fd752e7c0819b8f04918b3854729ebffd6ac3"
+        }
+      ]
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "commit": "90606c8315ee09cafc303515c5f33024db6b9882",
+      "committed_at": "2026-10-20T21:28:23Z",
+      "default_branch": "main",
+      "repository_license_identifier": "MIT",
+      "license_scope": "Check component licenses; repository metadata is not a blanket grant.",
+      "tree_truncated": false,
+      "qualification_status": "source_review_only",
+      "retrieved_source_files": [
+        {
+          "path": "AGENTS.md",
+          "bytes": 13204,
+          "sha256": "63f61dcfaa2c9ff64c563edc939e60bd0493d1ac337bd91c0d36d9e2ff724718",
+          "git_blob_sha1": "f2f049297454806522722b3bbe2b7ebb10811a0b"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1071,
+          "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+          "git_blob_sha1": "b832b6f642312312367c07688dc7426db40a82ed"
+        },
+        {
+          "path": "README.md",
+          "bytes": 115595,
+          "sha256": "891c1db3e717d893e625c9a87194a2dda07185911019a6e0e8b4c4bfd5d3b92c",
+          "git_blob_sha1": "6583ca8c1320e559aa5b2f86250f2f09c1d577e9"
+        },
+        {
+          "path": "package.json",
+          "bytes": 21248,
+          "sha256": "8908ad4e0233ff25875151e12b21e29f84dab2916ff658927dc9f8525b831f86",
+          "git_blob_sha1": "f306934190b362c40764126a94aff310e59b86ce"
+        },
+        {
+          "path": "pyproject.toml",
+          "bytes": 1992,
+          "sha256": "d3442125c3e7eff735891bb84a00dfdeb0aeb50fbce2835ea411b96e1307675d",
+          "git_blob_sha1": "5f979c2d2c72954fa4a98077c47790a09c41000c"
+        },
+        {
+          "path": "skills/continuous-learning-v2/SKILL.md",
+          "bytes": 14149,
+          "sha256": "ddad12451a0d582c6ef1b197b7be193bef613cbc74eba4117fcb74fc7a4ecd00",
+          "git_blob_sha1": "397b3d334dd1fdf5d7648dd619b6a744cd4734a5"
+        },
+        {
+          "path": "skills/search-first/SKILL.md",
+          "bytes": 8210,
+          "sha256": "76835db48dd910061d2e4271b1151793d2fddbabeb2d2866eed068b3580c55d5",
+          "git_blob_sha1": "3d2669e71ba54afba95defb05080253058190600"
+        },
+        {
+          "path": "skills/verification-loop/SKILL.md",
+          "bytes": 3064,
+          "sha256": "5b06be54d4852f60e6cf1b04c6e9a4748554334eb3e41af6c0959b544e6464ae",
+          "git_blob_sha1": "35cb4b7737ed2389a808b968aa360b00807eaffe"
+        }
+      ]
+    },
+    {
+      "repository": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "commit": "9a85667d0d87e8131b64351ec1fc4eb26e7bb865",
+      "committed_at": "2026-10-22T22:20:02Z",
+      "default_branch": "main",
+      "repository_license_identifier": "Apache-2.0",
+      "license_scope": "Check component licenses; repository metadata is not a blanket grant.",
+      "tree_truncated": false,
+      "qualification_status": "source_review_only",
+      "retrieved_source_files": [
+        {
+          "path": "AGENTS.md",
+          "bytes": 17372,
+          "sha256": "feec69763e67778669a18870383e64d6d09e30c3a06c2038bcbe78b64087f708",
+          "git_blob_sha1": "d1652c2606c19c860de29caf078df3e4c00717bc"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 11431,
+          "sha256": "d07c0367e2861e7fe70fa1b679f879f4fa2f9138ade4457d44ecf8b2e135bb45",
+          "git_blob_sha1": "f13d24c3fa482d61605d600e5ac1248799bd4107"
+        },
+        {
+          "path": "README.md",
+          "bytes": 8050,
+          "sha256": "b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883",
+          "git_blob_sha1": "e0aaa43641b41a8e7cd4a2f8ffcb345a356e754b"
+        },
+        {
+          "path": "SECURITY.md",
+          "bytes": 1908,
+          "sha256": "2a6ea261981a2b5041ae70fdb5421d184323cc48bbc994e80e04a43fe54bb05b",
+          "git_blob_sha1": "76ba2ce72d79f59ccc3cad027c7d1f30397b41ed"
+        },
+        {
+          "path": "crates/openshell-sandbox-backend/README.md",
+          "bytes": 8363,
+          "sha256": "549b941dc254664972bef67fdede0b235a7bd7d4b20639cae790c234f76a7c25",
+          "git_blob_sha1": "9045a8edf8900800ccf67827e571c1e89e492e53"
+        },
+        {
+          "path": "docs/about/support-matrix.mdx",
+          "bytes": 13298,
+          "sha256": "4ef776fe37d56e59d989214cf247226b0ddc7f6961c4f60ae4742573cd40c280",
+          "git_blob_sha1": "d9852d35ca82163e74b69751686165bd15a4d534"
+        },
+        {
+          "path": "docs/security/best-practices.mdx",
+          "bytes": 29884,
+          "sha256": "8c90e0663f5f7b520099c4184369bcd62093ee39817981f6ec343f0fb46e4677",
+          "git_blob_sha1": "10a17c0cea920c99098ec702500c4302e0e6b3da"
+        },
+        {
+          "path": "pyproject.toml",
+          "bytes": 3147,
+          "sha256": "c0b360a51c963afa6d283e0706b7b170ece118d6410ee10d6e4b35b7ad979ccf",
+          "git_blob_sha1": "3b3c49070caf84298bf36a6d5d7abf9d0a3786e7"
+        }
+      ]
+    },
+    {
+      "repository": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "committed_at": "2026-10-22T01:24:45Z",
+      "default_branch": "main",
+      "repository_license_identifier": "Apache-2.0",
+      "license_scope": "Check component licenses; repository metadata is not a blanket grant.",
+      "tree_truncated": false,
+      "qualification_status": "source_review_only",
+      "retrieved_source_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 11607,
+          "sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+          "git_blob_sha1": "f53c679acba79cbb292961fd9fb9e87ca20eab22"
+        },
+        {
+          "path": "README.md",
+          "bytes": 6109,
+          "sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+          "git_blob_sha1": "261e2f47e2b1701258e4bd3ec18620dc5d7c28ad"
+        },
+        {
+          "path": "engineering/README.md",
+          "bytes": 5291,
+          "sha256": "168c529ed659b79ac5736de9b9d9b9089c06e1998452f155e58ab2f6261d402f",
+          "git_blob_sha1": "b3a368d30c744e6ee6f185733447022bf8878844"
+        },
+        {
+          "path": "product-management/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+        },
+        {
+          "path": "product-management/README.md",
+          "bytes": 6546,
+          "sha256": "44c21947033cdff521f01adc77f1cf38ea71abe0027cf1d625090ac949a13b9f",
+          "git_blob_sha1": "794694ab4d522a3eb08320472b63f771047bb0a9"
+        }
+      ]
+    },
+    {
+      "repository": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "commit": "465f09344424225c25d438f2e052732c3d688d2f",
+      "committed_at": "2026-10-22T21:09:03Z",
+      "default_branch": "main",
+      "repository_license_identifier": "Apache-2.0",
+      "license_scope": "Check component licenses; repository metadata is not a blanket grant.",
+      "tree_truncated": false,
+      "qualification_status": "source_review_only",
+      "retrieved_source_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3859,
+          "sha256": "f34b8730d2b61617045c61ea2d9bf3ab08561305bfac77ea061e755bf46aeac2",
+          "git_blob_sha1": "43104e240ff500c762adebb0c31dc4b7ff7b50dd"
+        },
+        {
+          "path": "plugins/code-review/README.md",
+          "bytes": 7321,
+          "sha256": "1fca74bab6969b609519927ae49112760e15d8113eef6bbcf9b9a96c49d73c89",
+          "git_blob_sha1": "b0962f09a753dfabf19f38a5b2c73013d4d692f3"
+        },
+        {
+          "path": "plugins/pr-review-toolkit/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+        },
+        {
+          "path": "plugins/pr-review-toolkit/README.md",
+          "bytes": 7528,
+          "sha256": "364cb1d46aa64a01016e4ef5f41dfea5bd5e3cf530459409a376feba93dd2b49",
+          "git_blob_sha1": "e91cb7bed28ced8b6a48952abe430fba6deeae6d"
+        }
+      ]
+    },
+    {
+      "repository": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "commit": "c588b72d936927790a87ad009955078ed40562a3",
+      "committed_at": "2026-10-22T16:06:40Z",
+      "default_branch": "v8",
+      "repository_license_identifier": "Apache-2.0",
+      "license_scope": "Check component licenses; repository metadata is not a blanket grant.",
+      "tree_truncated": false,
+      "qualification_status": "source_review_only",
+      "retrieved_source_files": [
+        {
+          "path": "AGENTS.md",
+          "bytes": 563,
+          "sha256": "63b882af6af8e00c082cc865bbd1cb0e772ce199066398610a0abcc71c3a01e3",
+          "git_blob_sha1": "38857bdc2d175525367110a814289f9b9bb90f7d"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+        },
+        {
+          "path": "README.md",
+          "bytes": 34771,
+          "sha256": "b65a7f15565fbeac0b7be53d205e6c546ea81d5f19ecfe7d1922f8b38194c848",
+          "git_blob_sha1": "544af36d76762b66d8204bbd74254ba8377bda48"
+        },
+        {
+          "path": "SECURITY.md",
+          "bytes": 4066,
+          "sha256": "12d89fc6c93eda49bfb3e7bba4982640ab0541f8e31c74cdad41872b141e3411",
+          "git_blob_sha1": "3de3465c2018c684e90a97e210861cd1a52be40a"
+        },
+        {
+          "path": "graphify/extractors/base.py",
+          "bytes": 8536,
+          "sha256": "ebb5f6fffa319e7c54684c5e2f725a0ea451ccd3916200bc0db4a0d59ddfcb88",
+          "git_blob_sha1": "17d4ce600c5fcf7a566ac6e6d654c30b5e2886f1"
+        },
+        {
+          "path": "graphify/extractors/engine.py",
+          "bytes": 549311,
+          "sha256": "0fa3fb908742ba1e3cad2bd7195f557914534626a24c7eb60791b5105db06e5e",
+          "git_blob_sha1": "cc9fbae873d794fcb0be4f5bbd9e36ee19dbf594"
+        },
+        {
+          "path": "pyproject.toml",
+          "bytes": 9056,
+          "sha256": "59f9504d9e999ddbac3b1c06d94e7bcf8ecada3c50e204d96ba109f438020c45",
+          "git_blob_sha1": "ef5cc326d7f1e1276815bf11a36943d6fbceb504"
+        }
+      ]
+    },
+    {
+      "repository": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "commit": "25cf37080fc8b1dbe758a4efc3935b55f3327083",
+      "committed_at": "2026-10-19T13:54:27Z",
+      "default_branch": "main",
+      "repository_license_identifier": "MIT",
+      "license_scope": "Check component licenses; repository metadata is not a blanket grant.",
+      "tree_truncated": false,
+      "qualification_status": "source_review_only",
+      "retrieved_source_files": [
+        {
+          "path": "AGENTS.md",
+          "bytes": 2241,
+          "sha256": "a8a0343ee59a29e6aeb28d689888cda69f0c7d1cc034bf6372abdb16f40ee64d",
+          "git_blob_sha1": "562788125a8bd393392eff656a31109e94485833"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1102,
+          "sha256": "b799ab081703e7821ae5096d2c1abdf14bbdc75e8ea1c4045998c36ed6db9706",
+          "git_blob_sha1": "0f9f9397a0496ef63c7d555d36b40c3f932aff84"
+        },
+        {
+          "path": "README.md",
+          "bytes": 36520,
+          "sha256": "62b553d14d666243f01d6b5da7c48e7f00ba5b7141550190f1dd2bb83e86d39b",
+          "git_blob_sha1": "8598b4a900a06dc56648beef6c1a2676945698db"
+        },
+        {
+          "path": "SECURITY.md",
+          "bytes": 2111,
+          "sha256": "2d0d5b07c023ff6b4185b1a16af1383410cf906b5f9652a649fe41a63e5975f1",
+          "git_blob_sha1": "d0513681f817593543ece09f21514f47e052515e"
+        },
+        {
+          "path": "archify/references/repository-authoring.md",
+          "bytes": 8004,
+          "sha256": "c1648fc0c1b85a3a9bfbf3a8919dfa741ff0b5a55ea310d1fcacbf6ee837e139",
+          "git_blob_sha1": "38d06a6173042da3557e4d447330a7c3a56ad60c"
+        },
+        {
+          "path": "package.json",
+          "bytes": 1050,
+          "sha256": "736ad9aa5ca0aefae1c60c11965fcbe8672597ac9e5e046d11d555f706066ed6",
+          "git_blob_sha1": "949a99831569bbb1ef8021f91984c8e1ff41d448"
+        }
+      ]
+    },
+    {
+      "repository": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "commit": "f9e883a4bfa666635f28e72d37d5f249e3703d41",
+      "committed_at": "2026-10-23T08:30:46Z",
+      "default_branch": "main",
+      "repository_license_identifier": "MIT",
+      "license_scope": "Check component licenses; repository metadata is not a blanket grant.",
+      "tree_truncated": false,
+      "qualification_status": "source_review_only",
+      "retrieved_source_files": [
+        {
+          "path": "AGENTS.md",
+          "bytes": 4105,
+          "sha256": "97793af119b1c2bc03cbc28f1d9ff630b330fc4f5a8c3f33b55664d82996f227",
+          "git_blob_sha1": "9e7550b8b3d24e95037bf4f206ba397198b083a4"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
+          "git_blob_sha1": "fbf46fc17dacb1f65e03e2b6290eb53ba94b149d"
+        },
+        {
+          "path": "README.md",
+          "bytes": 17474,
+          "sha256": "859864c42d8e59b5fd20c52e1996ec5d81a1f875509e9297373629c8c85691c4",
+          "git_blob_sha1": "dc6b13791676eaf8b8896ba2896d34eb1139e701"
+        },
+        {
+          "path": "package.json",
+          "bytes": 31024,
+          "sha256": "2b1b5babba41edbbf3bd9a8a686825564a13cacb0ccd54dd7b76e8af84dc2c52",
+          "git_blob_sha1": "4843904071a5c364ffa67a16d62f0b44b14e2ccc"
+        }
+      ]
+    }
+  ],
+  "retrieval_note": "Files were retrieved and blob-verified; semantic inspection was selective, not a full audit."
+}

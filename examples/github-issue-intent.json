@@ -1,0 +1,19 @@
+{
+  "schema_version": "proposal-1",
+  "fixture_only": true,
+  "intent_id": "example:issue-intent-1",
+  "company_id": "example:local-company",
+  "repository_id": null,
+  "installation_id": null,
+  "effect": "github.issue.create",
+  "delivery_state": "preview_only",
+  "authorization": null,
+  "remote_receipt": null,
+  "request_body": {
+    "title": "[ParcelDesk] Started extra kilogram is omitted from quote",
+    "body": "Synthetic design example. A 1200g parcel should cost EUR 8 under the declared rule. Trusted reproduction and owner triage are still required.\n\n<!-- aeion-finding:example-local-parceldesk-pd01 -->",
+    "labels": ["loop:outer", "needs-owner"]
+  },
+  "uncertain_delivery_policy": "Observe and reconcile exact marker and receiver identity before any retry; no exactly-once claim",
+  "external_writes_enabled": false
+}

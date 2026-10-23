@@ -1,0 +1,21 @@
+{
+  "schema_version": "proposal-1",
+  "fixture_only": true,
+  "company_id": "example:local-company",
+  "repository_id": null,
+  "application": "ParcelDesk",
+  "source_revision": "example:deliberately-buggy-source",
+  "rule_id": "PD01-started-extra-kilogram",
+  "fingerprint": "example:must-be-computed-by-trusted-intake",
+  "certainty": "reproduction-proposal",
+  "sensitivity": "synthetic-public-demo",
+  "title": "Shipping quote omits a partially started additional kilogram",
+  "observed": {"grams": 1200, "actual_eur_cents": 500, "expected_eur_cents": 800},
+  "evidence_refs": ["example:planned-trusted-boundary-check"],
+  "trusted_verification_completed": false,
+  "suggested_scope": ["src/pricing/quote"],
+  "classification": "critical-business-rule",
+  "external_issue_authorized": false,
+  "agent_ready": false,
+  "next_required_action": "Reproduce with the trusted verifier, then apply company triage and approval policy"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "proposal-1",
+  "fixture_only": true,
+  "action": "merge",
+  "pr_mode": "hybrid",
+  "candidate_identity": "example:candidate-A",
+  "policy_identity": "example:unpublished-policy",
+  "assumed_test_facts": {"changed_lines": 1, "all_required_checks_current_and_trusted": true, "advisory_ai_score": 99, "changed_paths": ["src/pricing/quote"]},
+  "verdict": "needs_step_up",
+  "reason_codes": ["CRITICAL_BUSINESS_RULE", "AI_SCORE_CANNOT_GRANT_AUTHORITY"],
+  "required_binding": ["company", "repository_id", "head_sha", "tested_base_sha", "policy_digest", "check_set_digest", "action", "nonce", "expiry", "reviewer_role", "assurance"],
+  "effect_authorized": false,
+  "note": "A tiny PR with green checks and a high model score remains gated. This is a hypothetical decision fixture, not an executed evaluator result."
+}

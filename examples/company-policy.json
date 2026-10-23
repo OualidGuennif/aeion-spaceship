@@ -1,0 +1,27 @@
+{
+  "schema_version": "proposal-1",
+  "fixture_only": true,
+  "company_id": "example:local-company",
+  "policy_version": "example:unpublished-policy",
+  "execution": {"enabled": false, "max_concurrent_runs": 1, "runtime_profile": null, "required_ops_controls_qualified": false},
+  "github": {"external_writes": false, "installation_id": null, "allowed_repository_ids": [], "demo_repository_proposal": "<owner>/aeion-spaceship-demo"},
+  "governance": {
+    "pr_mode": "hybrid",
+    "auto_path_prefixes": ["web/help/"],
+    "critical_path_prefixes": ["src/pricing/", "src/auth/"],
+    "separate_authority_path_prefixes": [".github/", "spaceship/", "policies/", "infra/"],
+    "max_auto_changed_lines": 80,
+    "line_threshold_is_illustrative": true,
+    "advisory_score_can_reduce_risk": false,
+    "required_check_producers": [],
+    "step_up": {"required_for_critical": true, "identity_integration": null, "one_use": true, "bind_exact_action": true}
+  },
+  "data": {"classification": "synthetic-demo", "real_customer_data_allowed": false, "external_model_dispatch_allowed": false, "approved_regions": [], "content_capture": false},
+  "authentication_paths_retained": ["claude_subscription_token", "openrouter_api", "deepinfra_api"],
+  "inference": {"mode": "shadow", "approved_profiles": [], "max_checkpoint_escalations": 0, "required_parameter_silent_downgrade": false},
+  "budget": {"currency": "USD", "unit": "microusd", "limit": 2000000, "value_is_illustrative": true, "accounting_authority": null, "reserve_before_dispatch": true, "unknown_exposure_blocks": true},
+  "task_contract": {"deadline_seconds": 180, "deadline_is_illustrative": true, "quality_floor": null, "acceptance_definition": "example:parcel-boundary-tests", "unknown_interventions_mean_unknown_quality": true},
+  "delivery": {"enabled": false, "environment": "local-preview", "target_profile": null, "bind_artifact_digest": true, "allow_irreversible_migrations": false},
+  "evidence": {"required_durable_journal": true, "workload_can_write_authority_records": false},
+  "upstream_watch": {"maximum_interval_days": 7, "automatic_executable_updates": false}
+}
