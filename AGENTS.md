@@ -2,8 +2,8 @@
 
 - Read [PLAN.md](PLAN.md), [knowledge/index.md](knowledge/index.md) and
   [work/current.md](work/current.md) before meaningful work.
-- This repository currently contains a plan. Do not describe proposed adapters or controls as
-  implemented. The owner explicitly requested a substantial plan before product implementation.
+- This repository contains an architecture plan and offline catalog tooling. Do not describe
+  proposed runtime adapters or controls as implemented.
 - Keep code, docs, comments and logs in English. Explain findings to the owner in French.
 - Preserve Factory's method. Reuse the four sibling contracts; do not silently change them.
 - Trusted code owns authorization, budgets, state transitions and protected effects. Agents
@@ -16,3 +16,5 @@
 - Prefer small, testable slices; preserve deny/unknown states and evidence of incomplete work.
 - Review security implications before adopting dependencies; preserve upstream licenses/credits.
 - Documentation checks prove document consistency, not a runtime boundary or CROA conformance.
+- Keep ecosystem.json canonical for module identity, standalone use, maturity and website copy.
+  Regenerate docs/modules.md and run tools/ecosystem.py check after catalog changes.

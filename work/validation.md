@@ -1,4 +1,4 @@
-# Planning release validation — 2026-10-23
+# Initial planning release validation — 2026-10-23
 
 ## What was actually checked
 

@@ -108,4 +108,6 @@ was unsuccessful in this research session. No fresh whole-specification review i
 
 These are release gates, not excuses to leave the design ambiguous. The plan specifies how to
 resolve each one in a bounded spike before enabling affected behavior. No paid model call,
-upstream installer, real issue/PR, runtime qualification or enterprise deployment was performed.
+upstream installer, runtime qualification or enterprise deployment was performed. The runtime
+GitHub ticket/PR adapters were not exercised; documentation PRs and module publication are
+separate maintenance work.

@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-23",
+  "project": {
+    "name": "Æion SpaceShip",
+    "kind": "open-source software-factory framework",
+    "integrated_runtime_available": false
+  },
+  "locales": [
+    "en",
+    "fr"
+  ],
+  "website": {
+    "headline": {
+      "en": "Build your software factory, one module at a time.",
+      "fr": "Construisez votre software factory, un module à la fois."
+    },
+    "introduction": {
+      "en": "Four independent modules. One integration framework. Start with what you need and keep control of what agents may do.",
+      "fr": "Quatre modules indépendants. Un framework pour les assembler. Prenez ce dont vous avez besoin et gardez le contrôle des agents."
+    },
+    "status_note": {
+      "en": "Scaffold, audit tooling and framework examples are available. The integrated SpaceShip cockpit is planned.",
+      "fr": "Le socle, les outils d’audit et les exemples des frameworks sont disponibles. Le cockpit intégré SpaceShip reste à construire."
+    }
+  },
+  "modules": [
+    {
+      "id": "factory",
+      "name": "Æion Factory",
+      "repository": "https://github.com/OualidGuennif/aeion-factory",
+      "summary": {
+        "en": "Start coding with clear instructions, linked knowledge and checks.",
+        "fr": "Commencer à coder avec des consignes, une documentation liée au code et des vérifications."
+      },
+      "maturity": "usable_scaffold",
+      "maturity_label": {
+        "en": "Usable scaffold",
+        "fr": "Socle utilisable"
+      },
+      "standalone": true,
+      "requires_aeion_modules": [],
+      "requirements": [
+        "Git",
+        "Python 3"
+      ],
+      "available": [
+        "Repository scaffold, development method, hooks and checks"
+      ],
+      "planned_or_not_provided": [
+        "No hosted service or mandatory integration"
+      ],
+      "license": "MIT; upstream content retains its own license",
+      "quickstart": {
+        "commands": [
+          "git clone https://github.com/OualidGuennif/aeion-factory.git",
+          "cd aeion-factory",
+          "python3 tools/knowledge/knowledge-check"
+        ],
+        "expected": "Documentation check reports PASS. No model call is made.",
+        "external_writes": false,
+        "paid_calls": false
+      }
+    },
+    {
+      "id": "ops",
+      "name": "Æion OPS",
+      "repository": "https://github.com/OualidGuennif/aeion-ops",
+      "summary": {
+        "en": "Define secure execution boundaries and maintain a pinned security-audit toolkit.",
+        "fr": "Définir les frontières de sécurité et maintenir un kit d’audit de sécurité versionné."
+      },
+      "maturity": "framework_and_tools",
+      "maturity_label": {
+        "en": "Framework and maintenance tools",
+        "fr": "Framework et outils de maintenance"
+      },
+      "standalone": true,
+      "requires_aeion_modules": [],
+      "requirements": [
+        "Git",
+        "Python 3.9+"
+      ],
+      "available": [
+        "16-control security contract",
+        "Complete pinned Cloudflare audit skill and offline integrity checker"
+      ],
+      "planned_or_not_provided": [
+        "Qualified sandbox and credential mediation"
+      ],
+      "license": "MIT; upstream content retains its own license",
+      "quickstart": {
+        "commands": [
+          "git clone https://github.com/OualidGuennif/aeion-ops.git",
+          "cd aeion-ops",
+          "python3 tools/check_security_audit_upstream.py --integrity-only"
+        ],
+        "expected": "Reports integrity_verified and 22 verified files. This does not run an audit or qualify isolation.",
+        "external_writes": false,
+        "paid_calls": false
+      }
+    },
+    {
+      "id": "croa",
+      "name": "Æion CROA",
+      "repository": "https://github.com/OualidGuennif/aeion-croa",
+      "summary": {
+        "en": "Assess evidence for a deterministic foundation using an attributed CROA audit kit.",
+        "fr": "Évaluer les preuves du socle déterministe avec un kit d’audit attribué au projet CROA."
+      },
+      "maturity": "usable_audit_kit",
+      "maturity_label": {
+        "en": "Usable offline audit kit",
+        "fr": "Kit d’audit local utilisable"
+      },
+      "standalone": true,
+      "requires_aeion_modules": [],
+      "requirements": [
+        "Git",
+        "Python 3.9+"
+      ],
+      "available": [
+        "Offline audit-packet init, validation and report CLI",
+        "Pinned CROA references and optional callable skill"
+      ],
+      "planned_or_not_provided": [
+        "Independent deployed-scope assessment; no automatic certification"
+      ],
+      "license": "MIT code and CC BY 4.0 CROA-derived content",
+      "quickstart": {
+        "commands": [
+          "git clone https://github.com/OualidGuennif/aeion-croa.git",
+          "cd aeion-croa",
+          "python3 tools/croa/audit.py init --system demo"
+        ],
+        "expected": "Prints an unassessed audit packet. It does not inspect a target or award conformance.",
+        "external_writes": false,
+        "paid_calls": false
+      }
+    },
+    {
+      "id": "observability",
+      "name": "Æion Observability",
+      "repository": "https://github.com/OualidGuennif/aeion-observability",
+      "summary": {
+        "en": "Connect session telemetry to verified outcomes, cost and completion time.",
+        "fr": "Relier la télémétrie des sessions aux résultats vérifiés, aux coûts et au temps de réalisation."
+      },
+      "maturity": "research_and_examples",
+      "maturity_label": {
+        "en": "Framework and runnable synthetic examples",
+        "fr": "Framework et exemples synthétiques exécutables"
+      },
+      "standalone": true,
+      "requires_aeion_modules": [],
+      "requirements": [
+        "Git",
+        "Python 3.9+ for the example"
+      ],
+      "available": [
+        "Telemetry, quality and optimization contracts",
+        "Offline synthetic cohort comparison"
+      ],
+      "planned_or_not_provided": [
+        "Live collector, qualified adapters and routing controller"
+      ],
+      "license": "MIT; upstream content retains its own license",
+      "quickstart": {
+        "commands": [
+          "git clone https://github.com/OualidGuennif/aeion-observability.git",
+          "cd aeion-observability",
+          "python3 examples/compare_cohorts.py"
+        ],
+        "expected": "Prints synthetic cohort costs and cost per autonomous success. This is not a benchmark.",
+        "external_writes": false,
+        "paid_calls": false
+      }
+    },
+    {
+      "id": "spaceship",
+      "name": "Æion SpaceShip",
+      "repository": "https://github.com/OualidGuennif/aeion-spaceship",
+      "summary": {
+        "en": "Compose the modules into a software-factory framework with deterministic authority.",
+        "fr": "Assembler les modules en framework de software factory avec une autorité déterministe."
+      },
+      "maturity": "integration_blueprint",
+      "maturity_label": {
+        "en": "Integration blueprint and catalog tools",
+        "fr": "Plan d’intégration et outils de catalogue"
+      },
+      "standalone": true,
+      "requires_aeion_modules": [],
+      "requirements": [
+        "Git",
+        "Python 3.9+ for the catalog tools"
+      ],
+      "available": [
+        "Modular ecosystem catalog and adoption guide",
+        "Architecture, contracts and staged implementation plan"
+      ],
+      "planned_or_not_provided": [
+        "Integrated cockpit, governed agent execution and delivery adapters"
+      ],
+      "license": "MIT; upstream content retains its own license",
+      "quickstart": {
+        "commands": [
+          "git clone https://github.com/OualidGuennif/aeion-spaceship.git",
+          "cd aeion-spaceship",
+          "python3 tools/ecosystem.py check"
+        ],
+        "expected": "Checks the module catalog, generated documentation, links and inactive fixtures. It does not start a cockpit.",
+        "external_writes": false,
+        "paid_calls": false
+      }
+    }
+  ]
+}
